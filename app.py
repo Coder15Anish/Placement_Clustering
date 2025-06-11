@@ -27,7 +27,7 @@ if df is not None:
         df_out_with_iq=calculate_iq(df_out)
 
         st.subheader("📊 Processed Data with Placement Clusters:")
-        st.dataframe(df_out_with_iq[['Cluster', 'PlacementChance','IQ'] + features])
+        st.dataframe(df_out_with_iq[['Cluster', 'PlacementChance','IQ'] + features].head())
 
         flag=True
         
