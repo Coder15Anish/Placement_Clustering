@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 streamlit = "*"
 scikit-learn = "*"
+matplotlib = "*"
+seaborn = "*"
 
 [dev-packages]
 
